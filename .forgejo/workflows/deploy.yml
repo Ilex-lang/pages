@@ -18,6 +18,6 @@ jobs:
 
       - uses: actions/git-pages@v2
         with:
-          site: https://neolang.codeberg.page/pages/
+          site: https://neolang.codeberg.page
           token: ${{ forge.token }}
           source: dist/
